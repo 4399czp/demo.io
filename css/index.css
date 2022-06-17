@@ -1,0 +1,179 @@
+/* 主题部分 */
+.gride {
+  height: 320px;
+}
+/* 左侧边栏部分 */
+.gride-col1 {
+  width: 190px;
+  height: 100%;
+  background-color: #666;
+  color: #fff;
+  font-size: 14px;
+}
+.gride-col1 a {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 3px;
+}
+.gride-col1 a:hover {
+  color: rgb(255, 128, 0);
+}
+.gride-col1 h2 {
+  padding-top: 5px;
+  padding-left: 12px;
+}
+.gride-col1 ul {
+  padding-bottom: 25px;
+}
+.gride-col1 ul li {
+  padding-left: 12px;
+  height: 29px;
+  line-height: 29px;
+}
+.gride-col1 ul li:hover {
+  background-color: rgb(180, 180, 180);
+}
+/* 轮播图部分 */
+.gride-col2 {
+  width: 790px;
+  height: 100%;
+  margin-left: 10px;
+}
+.arrow-l,
+.arrow-r {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: translateY(-50%);
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: arial;
+  font-weight: normal;
+}
+.arrow-l {
+  left: 0%;
+}
+.arrow-r {
+  right: 0%;
+}
+.circle {
+  width: 75px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  padding-left: 15px;
+  border-radius: 10px;
+}
+.circle li {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  float: left;
+  margin: 4px;
+  cursor: pointer;
+}
+li.current {
+  background-color: red;
+}
+.gride-col3 {
+  width: 190px;
+  height: 100%;
+  position: relative;
+}
+.gride-col3 a {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 160px;
+  width: 160px;
+  background-color: rgb(255, 255, 0);
+  border-radius: 50%;
+}
+.gride-col3 img {
+  position: absolute;
+  left: 5px;
+}
+.gride-col3 .s {
+  position: absolute;
+  top: 200px;
+  left: 45px;
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: rgb(0, 255, 0);
+}
+.gride-col3 .x {
+  position: absolute;
+  top: 270px;
+  left: 45px;
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: rgb(255, 0, 0);
+}
+.shop {
+  margin-top: 10px;
+}
+.shop div {
+  height: 150px;
+  width: 1170;
+  margin-top: 20px;
+}
+.shop div a {
+  height: 150px;
+  width: 260px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  float: left;
+  border-radius: 15px;
+  display: block;
+  position: relative;
+}
+.shop div a:hover {
+  border-color: rgb(255, 128, 0);
+  border-style: solid;
+  border-width: 1px;
+}
+.shop div a img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 15px;
+}
+.shop a div {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  width: 40%;
+  float: right;
+}
+.shop a div p {
+  margin-left: 10px;
+}
+.shop a div .qian {
+  position: absolute;
+  bottom: 30px;
+  left: 0%;
+  color: rgb(255, 0, 0);
+  font-size: 16px;
+}
+.back {
+  position: fixed;
+  height: 40px;
+  width: 80px;
+  bottom: 50%;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+}
